@@ -1,0 +1,92 @@
+@import url(https://www.bing.com/images/search?view=detailV2&ccid=B%2FqImP9J&id=C6EE9D86DC275E072CC2DA5CFF1FECDD97A0F935&thid=OIP.B_qImP9JAk5toMpEbhecrgHaFj&mediaurl=https%3A%2F%2Fwww.the-klu.org%2Ffileadmin%2F_processed_%2Fb%2F2%2Fcsm_170517_che-ranking_green_dots_for_klu_baa2caf75e.jpg&exph=900&expw=1200&q=css+background+images&form=IRPRST&ck=95367231C246F6E965245BC00615082A&selectedindex=3&qpvt=css+background+images&ajaxhist=0&ajaxserp=0&vt=0&sim=11&cdnurl=https%3A%2F%2Fth.bing.com%2Fth%2Fid%2FR.07fa8898ff49024e6da0ca446e179cae%3Frik%3DNfmgl93sH%252f9c2g%26pid%3DImgRaw%26r%3D0&pivotparams=insightsToken%3Dccid_vBC6TRUV*cp_AE456C76A6B9729F22E98900CB199667*mid_0CF545DE918CA97C33A7BBB980CDD2C1BDBE2599*simid_607990734659144907*thid_OIP.vBC6TRUVJN2WbT6R!_2YfygHaFC&iss=VSI&ajaxhist=0&ajaxserp=0);
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("https://www.the-klu.org/fileadmin/_processed_/b/2/csm_170517_che-ranking_green_dots_for_klu_baa2caf75e.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container-info {
+    padding: 2px 2px;
+    color: black;
+    border: 2px;
+    border: solid 5px;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    border-radius: 5%;
+    background-color: rgb(255, 127, 161);
+    margin-bottom: 5%;
+
+    .container-info {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .date-container .time {
+        font-size: 70px;
+        font-weight: 100;
+    }
+
+    .date-container #am-pm {
+        font-size: 30px;
+        margin-left: 20px;
+
+    }
+
+    .date-container .date {
+        font-size: 30px;
+    }
+
+    .place-container {
+        text-align: align;
+    }
+
+    .place-container .time-zone {
+        font-size: 30px;
+        font-weight: 100;
+    }
+
+    .place-container .country {
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    .current-info .others {
+        display: flex;
+        flex-direction: column;
+        background: orange;
+        padding: 20px;
+        border-radius: 10px;
+        margin: 10px;
+
+    }
+
+    .current-info .others .weather-item {
+        display: flex;
+        justify-content: space-between;
+
+
+
+    }
+
+    .future-forecast {
+        background: lime padding: 25px;
+        position: fixed;
+        bottom: 0 display: flex;
+        width: 100%;
+        align-items: center;
+    }
